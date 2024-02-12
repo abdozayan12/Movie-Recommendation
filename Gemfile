@@ -8,6 +8,9 @@ gem "rails", "~> 7.1.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+# add linter for ruby
+gem 'rubocop', '>= 1.0', '< 2.0'
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
