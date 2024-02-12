@@ -33,8 +33,10 @@ class MoviesController < ApplicationController
     @movie = Movie.find(params[:id])
     if @movie.update(movie_params)
       # Redirect or render success message
+      render 'success'
     else
       # Render error message or form again
+      render 'try again'
     end
   end
 
