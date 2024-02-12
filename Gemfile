@@ -14,6 +14,9 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# use Devise authentication
+gem 'devise'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '>= 5.0'
 
